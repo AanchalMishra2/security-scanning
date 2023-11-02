@@ -1,0 +1,1199 @@
+popup_Body/*body*/
+/*Data Entry Form*/
+/*Menu*/
+/* Modal Popup*/
+/*HTML  Controls*/
+/*Logout link */
+/*Data Entry Form*/
+/*MessageBox Styles*/
+/*Tab Panel*/
+/*Reports*/
+/*Modal Popup*/
+ 
+
+/*Menu Start*/
+.staticMenuItemStyle
+{
+	text-align: center;
+	display: block;
+	padding-left: 4px;
+	padding-right: 4px;
+	margin-left: 0;
+}
+
+.staticMenuItemSelectedStyle
+{
+	border: solid 1px #000;
+}
+
+.staticHoverStyle
+{
+	background-image: url(../Images/bck_purple.gif);
+}
+
+.menuItem
+{
+	display: block;
+	color: Maroon;
+}
+
+
+.dynamicMenuItemStyle
+{
+	display: block;
+	height: 25px;
+	width: 100%;
+	border-bottom: solid 1px White;
+	background-color: Purple;
+	color: White;
+	z-index: 200;
+	font-weight: bold;
+	font-size: small;
+	position: relative;
+	padding-left: 2px;
+}
+
+.background
+{
+	border: solid 1px #000;
+	background-image: url(../Images/bg-black.gif);
+}
+
+.NavigationMenu
+{
+	font-family: Verdana;
+	font-size: 10pt; /*color:#FFF;*/
+	font-weight: 600;
+	z-index: 101;
+	background-image: url(../Images/bck_purple.gif); /*background-image:url(../Images/bg-black.gif);*/ /*background-color:Purple;*/
+	color: White;
+}
+
+#h
+{
+	background: #CCCFFF;
+	padding: 5px 0 6px 10px;
+}
+            
+#e
+{
+	border: solid 1px #919191;
+	background-image: url(../Images/sub.gif);
+	padding: 0 0 1px;
+}
+
+.menuItemMouseOver, .menuItemSelected
+{
+	border: solid 1px Navy; /*background-image:url(../Images/bg-black.gif);*/
+	background-color: White;
+	color: purple;
+}
+
+.NavigationMenu A:link, .NavigationMenu A:visited, .NavigationMenu A:active
+{
+	text-decoration: none;
+	color: #FFF;
+	display: block;
+}
+
+.currentNodeStyle, .nodeStyle, .rootNodeStyle, a.siteMapPath
+{
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+/*Menu End*/
+
+
+/* Modal Popup Start*/
+.modalBackground
+{
+	background-color: Gray;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+.confirm
+{
+	background-color: White;
+	border-style: solid;
+	border-color: Red;
+	padding: 10px;
+	width: 400px;
+	font-family: Arial;
+	font-size: 11px;
+}
+.confirmtable
+{
+	background-color: White;
+	border-style: none;
+	border-color: Silver;
+	padding: 0px;
+	width: 400px;
+	font-family: Arial;
+	font-size: 11px;
+}
+.confirmbutton
+{
+	font-family: Arial;
+	font-size: 11px;
+}
+.style4
+{
+	width: 100%;
+	height: 40px;
+}
+/*ValidationMessage*/
+.ValidationMessage
+{
+	font-weight: bold;
+	color: Red;
+}
+.LoginValidationMsg
+{
+	font-family: Verdana;
+	font-size: xx-small;
+	color: Red;
+}
+/*popupdiv*/
+.popupdiv
+{
+	background-color: ivory;
+	border: solid 1px skyblue;
+	width: 300px;
+	display: block;
+}
+.popupbg
+{
+	background-color: gray;
+	filter: alpha(opacity=60);
+	opacity: 0.60;
+}
+
+/*Css Clases added for new pop up at user master on  test */
+
+.ModalPopupBG
+{
+	background-color: #666699;
+	filter: alpha(opacity=50);
+	opacity: 0.7;
+}
+
+.popup_Container
+{
+	background-color: #fffeb2;
+	border: 2px solid #000000;
+	padding: 0px 0px 0px 0px;
+}
+
+.popupConfirmation
+{
+	width: 300px;
+	height: 200px;
+}
+.popup_Titlebar
+{
+	background: url(../Images/bg-black.gif);
+	height: 29px;
+}
+
+
+.TitlebarLeft
+{
+	float: left;
+	padding-left: 5px;
+	padding-top: 5px;
+	font-family: Verdana ,Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.TitlebarRight
+{
+	background: url(../Images/cross_icon_normal.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	height: 15px;
+	width: 16px;
+	float: right;
+	cursor: pointer;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+.popup_Body
+{
+	padding: 15px 15px 15px 15px;
+	font-family: Verdana ,Arial;
+	font-weight: bold;
+	font-size: 12px;
+	color: #000000;
+	line-height: 15pt;
+	clear: both;
+	padding: 20px;
+}
+.popup_Buttons
+{
+	margin: 10px;
+}
+.GridContainer
+{
+	background: #ECF5FB;
+	min-height: 300px;
+	border: solid 1px #d4d4d4;
+}
+
+.Container1
+{
+	margin: auto;
+	min-height: 400px;
+	background: #ffffff;
+	max-width: 500px;
+	min-width: 500px;
+	border: solid 1px #d4d4d4;
+	padding: 0 20px 20px 20px;
+	font-size: 70%;
+}
+.Container
+{
+	min-height: 400px;
+	max-width: 100%;
+	min-width: 100%;
+	font-size: 70%;
+}
+/* Modal Popup End*/
+
+/*	min-width:100%;
+	font-size:70%;
+	background-image:url(../images/newback.jpg) 
+	  
+}
+
+Detail View In Modal Pop Up 
+.detail
+{
+	font-family:Verdana , grande,arial,helvetica,sans-serif;
+	font-size:11px;
+	background-color:#fff;
+	border:solid 2px #000;
+	padding:4px;
+}
+.detail .footer
+{
+	text-align:right;
+	padding:8px;
+}
+*/
+
+.WelcomeMsg
+{
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: #EA5A01; /*#FF762B; #022D00;*/
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+/* table style */
+.detailgrid
+{
+	border: solid 1px #ad9e87;
+}
+
+/* cell styles */
+.detailgrid td
+{
+	cursor: default;
+	height: 20px;
+	color: #000;
+	padding: 2px 8px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #f2e8da;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #f2e8da;
+}
+/*Grid View UserDetail */
+
+/* table style */
+.datagrid
+{
+	font-family: lucida grande,arial,helvetica,sans-serif;
+	font-size: 11px;
+	width: 800px;
+	border: solid 1px #ad9e87;
+}
+
+/* common cell styles */
+.datagrid th, .datagrid td
+{
+	cursor: default;
+	height: 20px;
+}
+
+/* header cell style */
+.datagrid th
+{
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #ad9e87;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #ad9e87;
+	background: #e1d6c7 url(../night/mt_back.gif) repeat-x;
+	color: #59483f;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* cell styles */
+.datagrid td
+{
+	color: #000;
+	padding: 2px 8px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #f2e8da;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #f2e8da;
+}
+
+/* mouseover row style */
+.datagrid tr:hover
+{
+	background-color: #f2e8da;
+}
+
+
+/*
+Css Class For All controls used in this application
+HTML  Controls Start
+*/
+
+h1
+{
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+	font-family: verdana, arial, helvetica, sans-serif;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+h3
+{
+	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+	font-family: verdana, arial, helvetica, sans-serif;
+	text-decoration: none;
+}
+h2
+{
+	font-size: 12px;
+	color: #353535;
+	font-weight: Bold;
+	font-family: verdana, arial, helvetica, sans-serif;
+	text-decoration: none;
+}
+/*
+a:link {
+color : #007AF4; 
+text-decoration : none; 
+cursor:pointer  
+} 
+a:visited {
+color : #007AF4; 
+text-decoration : none;
+cursor:pointer  
+} 
+a:hover {
+color : #ff3e3e; 
+text-decoration : underline; 
+cursor:pointer 
+} 
+a:active {
+color : #007AF4; 
+text-decoration : none; 
+cursor:pointer 
+}*/
+/*hyperlink*/
+
+
+
+.submitHyperLink
+{
+	color: #fff;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	background-color: #9CCAE4;
+	border: 1px solid #dadada;
+	cursor: pointer;
+}
+/*DDL*/
+.ddlps
+{
+	font-size: 12px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	width: 135px;
+	height: 20px;
+	background-color: #FFFBE1;
+	border: 1px solid #acc6db;
+	text-decoration: none;
+}
+
+
+/*Button*/
+.submit
+{
+	color: #fff;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	background-color: Navy;
+	border: 1px solid #dadada;
+	cursor: pointer;
+	width: 80px;
+	margin-left: 0px;
+	height: 24px;
+}
+.BtnSubmit
+{
+	color: #fff;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	background-color: Navy;
+	border: 1px solid #dadada;
+	cursor: pointer;
+	width: 101px;
+	height: 24px;
+}
+
+
+
+.submit2
+{
+	color: #fff;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	background-color: #074db9;
+	border: 1px solid #dadada;
+	cursor: pointer;
+}
+/*HTML  Controls End*/
+
+/*Logout link Start*/
+.logout:link
+{
+	font-weight: bold;
+	font-family: Verdana;
+	text-decoration: none;
+	color: #990099;
+}
+.logout:hover
+{
+	font-weight: bold;
+	font-family: Verdana;
+	text-decoration: none;
+	color: #165D8B;
+}
+
+/*Logout link End*/
+
+
+
+
+/*Text Box*/
+.textbox
+{
+	border-left: 1px solid #acc6db;
+	border-right: 1px solid #acc6db;
+	border-top: 1px solid #acc6db;
+	border-bottom: 1px solid #acc6db;
+	background-color: #fff;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+}
+.txtinput
+{
+	border-left: 1px solid #acc6db;
+	border-right: 1px solid #acc6db;
+	border-top: 1px solid #acc6db;
+	border-bottom: 1px solid #acc6db;
+	height: 17px;
+	background-color: #fff;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+}
+.textboxS
+{
+	height: 18px;
+	border: 1px solid #acc6db;
+	font-size: 12px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	background-color: #FFFBE1;
+	margin-bottom: 2px;
+}
+.textboxS
+{
+	height: 18px;
+	border: 1px solid #acc6db;
+	font-size: 12px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	background-color: #FFFBE1;
+	margin-bottom: 2px;
+}
+
+
+.textboxM
+{
+	height: 30px;
+	width: 180px;
+	border: 1px solid #acc6db;
+	font-size: 12px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	background-color: #FFFBE1;
+	margin-bottom: 2px;
+}
+
+
+/*Messages Show*/
+.catcount
+{
+	font-size: 10px;
+	color: #353535;
+	font-weight: normal;
+	font-family: verdana, arial, helvetica, sans-serif;
+	text-decoration: none;
+}
+.content2
+{
+	font-size: 11px;
+	color: #595959;
+	font-weight: normal;
+	font-family: verdana, arial, helvetica, sans-serif;
+	text-decoration: none;
+}
+.content01
+{
+	font-size: 10px;
+	color: #595959;
+	font-weight: normal;
+	font-family: verdana, arial, helvetica, sans-serif;
+	text-decoration: none;
+}
+.InvalidCred
+{
+	font-size: 11px;
+	color: #CC0000;
+	font-weight: normal;
+	font-family: verdana, arial, helvetica, sans-serif;
+	text-decoration: none;
+}
+.content16
+{
+	font-size: 11px;
+	color: #8d8d8d;
+	font-weight: normal;
+	font-family: verdana, arial, helvetica, sans-serif;
+	text-decoration: none;
+}
+.content12
+{
+	font-size: 12px;
+	color: #595959;
+	font-weight: normal;
+	font-family: verdana, arial, helvetica, sans-serif;
+	text-decoration: none;
+}
+.contentpro
+{
+	font-size: 12px;
+	color: #808000;
+	font-weight: normal;
+	font-family: verdana, arial, helvetica, sans-serif;
+	text-decoration: none;
+}
+.catcntsml
+{
+	font-size: 9px;
+	color: #595959;
+	font-weight: normal;
+	font-family: verdana, arial, helvetica, sans-serif;
+	text-decoration: none;
+}
+.content10
+{
+	font-size: 11px;
+	color: #595959;
+	font-weight: bold;
+	font-family: verdana, arial, helvetica, sans-serif;
+	text-decoration: none;
+}
+.content7
+{
+	font-size: 11px;
+	color: #515151;
+	font-weight: normal;
+	font-family: verdana, arial, helvetica, sans-serif;
+	text-decoration: none;
+}
+.content4
+{
+	font-size: 11px;
+	color: #336699;
+	font-weight: bold;
+	font-family: verdana, arial, helvetica, sans-serif;
+	text-decoration: none;
+}
+.content6
+{
+	font-size: 11px;
+	color: #336699;
+	font-weight: bold;
+	font-family: verdana, arial, helvetica, sans-serif;
+	text-decoration: none;
+}
+
+.content5
+{
+	font-size: 11px;
+	color: #800000;
+	font-weight: normal;
+	font-family: verdana, arial, helvetica, sans-serif;
+	text-decoration: none;
+}
+.contadmin
+{
+	font-size: 12px;
+	color: #fff;
+	font-weight: Bold;
+	font-family: Tahoma, sans-serif;
+	text-decoration: none;
+}
+.content15
+{
+	font-size: 10px;
+	color: #6b6b6b;
+	font-weight: normal;
+	font-family: verdana, sans-serif;
+	text-decoration: none;
+}
+.content3
+{
+	font-size: 11px;
+	color: #000;
+	font-weight: Bold;
+	font-family: Tahoma, sans-serif;
+	text-decoration: none;
+}
+.contwhite
+{
+	font-size: 11px;
+	color: #fff;
+	font-weight: Bold;
+	font-family: Tahoma, sans-serif;
+	text-decoration: none;
+}
+.drecipe
+{
+	font-size: 12px;
+	color: #303030;
+	font-weight: normal;
+	font-family: verdana, arial, helvetica, sans-serif;
+	text-decoration: none;
+}
+.content8
+{
+	font-size: 11px;
+	color: #595959;
+	font-weight: normal;
+	font-family: verdana, arial, helvetica, sans-serif;
+	text-decoration: none;
+}
+.catart1
+{
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: #007AF4;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none;
+}
+.artcat:link
+{
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: #007AF4;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+}
+.artcat:visited
+{
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: #007AF4;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+}
+.artcat:hover
+{
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: #ff3e3e;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: underline;
+}
+.artcat:active
+{
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: #007AF4;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+/* gridView used In application */
+
+.tablestyle
+{
+	font-family: arial;
+	font-size: small;
+	border: solid 0px #7f7f7f;
+	margin-left: 16px;
+}
+
+.altrowstyle
+{
+	background-color: #edf5ff;
+}
+
+.headerstyle th
+{
+	background: url(../Images/sprite.png) repeat-x 0px 0px;
+	border-color: #989898 #cbcbcb #989898 #989898;
+	border-style: solid solid solid none;
+	border-width: 1px 0px 1px medium;
+	color: #000;
+	padding: 4px 5px 4px 10px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.headerstyle th a
+{
+	font-weight: normal;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	color: #000;
+	display: block;
+	padding-right: 10px;
+}
+
+.rowstyle .sortaltrow, .altrowstyle .sortaltrow
+{
+	background-color: #edf5ff;
+}
+
+.rowstyle .sortrow, .altrowstyle .sortrow
+{
+	background-color: #dbeaff;
+}
+
+.rowstyle td, .altrowstyle td
+{
+	padding: 4px 10px 4px 10px;
+	border-right: solid 0px #cbcbcb;
+}
+
+.headerstyle .sortascheader
+{
+	background: url(../Images/sprite.png) repeat-x 0px -100px;
+}
+
+.headerstyle .sortascheader a
+{
+	background: url(../Images/dt-arrow-up.png) no-repeat right 50%;
+}
+
+.headerstyle .sortdescheader
+{
+	background: url(../Images/sprite.png) repeat-x 0px -100px;
+}
+
+.headerstyle .sortdescheader a
+{
+	background: url(../Images/dt-arrow-dn.png) no-repeat right 50%;
+}
+
+/* mis entry page contents*/
+.LabelText
+{
+	font-size: 11px;
+	color: Black;
+	font-weight: bold;
+	font-family: verdana, arial, helvetica, sans-serif;
+	text-decoration: none;
+}
+
+/* Line Item text box*/
+.textboxLineItem
+{
+	height: 18px;
+	width: 50px;
+	border: 1px solid #acc6db;
+	font-size: 12px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	background-color: #FFFBE1;
+	margin-bottom: 2px;
+}
+.textboxLinePercent
+{
+	height: 18px;
+	width: 20px;
+	border: 1px solid #acc6db;
+	font-size: 12px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	background-color: #FFFBE1;
+	margin-bottom: 2px;
+}
+.textboxLine2
+{
+	height: 18px;
+	width: 20px;
+	border: 1px solid #acc6db;
+	font-size: 12px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	background-color: #FFFBE1;
+	margin-bottom: 2px;
+}
+.textboxLine3
+{
+	height: 18px;
+	width: 25px;
+	border: 1px solid #acc6db;
+	font-size: 12px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	background-color: #FFFBE1;
+	margin-bottom: 2px;
+}
+.textboxLine5
+{
+	height: 18px;
+	width: 40px;
+	border: 1px solid #acc6db;
+	font-size: 12px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	background-color: #FFFBE1;
+	margin-bottom: 2px;
+}
+.textboxLine7
+{
+	height: 18px;
+	width: 50px;
+	border: 1px solid #acc6db;
+	font-size: 12px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	background-color: #FFFBE1;
+	margin-bottom: 2px;
+}
+
+
+
+/*body*/
+body
+{
+	margin: 0;
+	padding: 0;
+	background: #7C6F5C url(../Images/pg_bg.gif);
+	font: 90% verdana , Helvetica, sans-serif;
+	color: Black;
+	line-height: 150%;
+	text-align: left;
+}
+
+h1
+{
+	font-size: 140%;
+	margin: 0 20px;
+	line-height: 80px;
+}
+h2
+{
+	font-size: 120%;
+}
+
+#container
+{
+	margin: 0 auto;
+	width: 100%;
+	background: #fff;
+	padding-bottom: 20px;
+}
+#content
+{
+	margin: 0 10px;
+}
+p.sig
+{
+	margin: 0 auto;
+	width: 680px;
+	padding: 1em 0;
+}
+form
+{
+	margin: 1em 0;
+	padding: .2em 20px; /*background:#eee;*/ /*background:#FAEDFC;*/ /*background-image:url(../Images/pg_bg.gif);*/ /*background: #7C6F5C url(../Images/bg.jpg);*/ /*background-image:url(Images/Stage_BG_btm.png);*/
+}
+/*body*/
+body1
+{
+	background-image: url(Images/Stage_BG_btm.png);
+	background-position: center bottom;
+	background-repeat: repeat-x;
+	font-family: Verdana,Segoe,sans-serif;
+	font-size: 90%;
+	padding-bottom: 20px;
+}
+.style4
+{
+	width: 100%;
+	height: 40px;
+}
+
+
+/*Data Entry Form Start*/
+
+.tblDataForm
+{
+	font-family: Verdana;
+	margin: 20px;
+	border: solid 1px gray;
+	color: ThreeDDarkShadow;
+	font-size: 12px;
+}
+.tblDataForm .topHeader
+{
+	background-color: #dcdcdc;
+	font-weight: bold;
+	font-size: 15px;
+	padding-left: 10px;
+	color: ThreeDDarkShadow;
+	border-bottom: solid 1px gray;
+	border-top: solid 3px gray;
+	border-right: solid 2px gray;
+	border-left: solid 2px gray;
+}
+.tblDataForm .subHeader
+{
+	background-color: #dcdcdc;
+	font-weight: bold;
+	font-size: 11px;
+	padding-left: 10px;
+	color: ThreeDDarkShadow;
+	border-bottom: solid 1px gray;
+	border-top: solid 2px gray;
+	border-right: solid 1px gray;
+	border-left: solid 1px gray;
+}
+.tblDataForm TD
+{
+	border-bottom: solid 1px #dcdcdc;
+	border-right: solid 1px #dcdcdc;
+	padding: 4px;
+}
+.tblDataForm input
+{
+	width: 150px;
+	border: solid 1px silver;
+	background-color: White;
+	color: ThreeDDarkShadow;
+}
+.tblDataForm select
+{
+	width: 150px;
+	border: solid 1px silver;
+	background-color: White;
+	color: ThreeDDarkShadow;
+}
+.tblDataForm textarea
+{
+	width: 150px;
+	height: 45px;
+	border: solid 1px silver;
+	background-color: White;
+	color: ThreeDDarkShadow;
+}
+.tblDataForm .subbutton
+{
+	width: 100px;
+	height: 25px;
+	border: solid 1px #dcdcdc;
+	background-color: #dcdcdc;
+	color: ThreeDDarkShadow;
+	border: solid 1px silver; /* 	background-color: InactiveCaption; 	color:  white;*/
+	font-weight: bold;
+}
+.tblDataForm .subbuttonH
+{
+	width: 100px;
+	height: 25px;
+	border: solid 1px #dcdcdc;
+	background-color: silver;
+	color: ThreeDDarkShadow;
+	border: solid 1px silver; /* 	background-color: InactiveCaption; 	color:  white;*/
+	font-weight: bold;
+}
+
+/*Data Entry Form End*/
+
+/*MessageBox Styles Start*/
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+.info, .success, .warning, .error, .validation
+{
+	border: 1px solid;
+	margin: 10px 0px;
+	padding: 15px 10px 15px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+.info
+{
+	color: #00529B;
+	background-color: #BDE5F8;
+	background-image: url( 'info.png' );
+}
+.success
+{
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	background-image: url( 'success.png' );
+}
+.warning
+{
+	color: #9F6000;
+	background-color: #FEEFB3;
+	background-image: url( 'warning.png' );
+}
+.error
+{
+	color: #D8000C;
+	background-color: #FFBABA;
+	background-image: url( 'error.png' );
+}
+
+/*MessageBox Styles End*/
+/*Tab Panel Starts*/
+.tabcontainer
+{
+	/*Inner*/
+}
+.tabwrapper
+{
+	/*Outer*/
+	margin: 20px;
+}
+.tabwrapper .tblDataForm
+{
+	font-family: Verdana;
+	margin: 20px;
+	border: solid 1px gray;
+	color: ThreeDDarkShadow;
+	font-size: 11px;
+}
+.tabwrapper .tblDataForm .topHeader
+{
+	background-color: #dcdcdc;
+	font-weight: bold;
+	font-size: 15px;
+	padding-left: 10px;
+	color: ThreeDDarkShadow;
+	border-bottom: solid 1px gray;
+	border-top: solid 3px gray;
+	border-right: solid 2px gray;
+	border-left: solid 2px gray;
+}
+.tabwrapper .tblDataForm .subHeader
+{
+	background-color: #dcdcdc;
+	font-weight: bold;
+	font-size: 11px;
+	padding-left: 10px;
+	color: ThreeDDarkShadow;
+	border-bottom: solid 1px gray;
+	border-top: solid 2px gray;
+	border-right: solid 1px gray;
+	border-left: solid 1px gray;
+}
+.tabwrapper .tblDataForm TD
+{
+	border-bottom: solid 1px #dcdcdc;
+	border-right: solid 1px #dcdcdc;
+	padding: 4px;
+}
+.tabwrapper .tblDataForm input
+{
+	width: 150px;
+	border: solid 1px silver;
+	background-color: White;
+	color: ThreeDDarkShadow;
+}
+.tabwrapper .tblDataForm select
+{
+	width: 150px;
+	border: solid 1px silver;
+	background-color: White;
+	color: ThreeDDarkShadow;
+}
+.tabwrapper .tblDataForm textarea
+{
+	width: 150px;
+	height: 45px;
+	border: solid 1px silver;
+	background-color: White;
+	color: ThreeDDarkShadow;
+}
+.tabwrapper .tabButtonBox
+{
+	margin-top: 10px;
+	border: solid 1px gray;
+	padding: 10px;
+	text-align: center;
+}
+.tabwrapper .tblDataForm .subbutton, .tabwrapper .tabButtonBox .subbutton
+{
+	width: 100px;
+	height: 25px;
+	border: solid 1px #dcdcdc;
+	background-color: #dcdcdc;
+	color: ThreeDDarkShadow;
+	border: solid 1px silver; /* 	background-color: InactiveCaption; 	color:  white;*/
+	font-weight: bold;
+}
+/*Tab Panel Ends*/
+
+/*Reports*/
+.reportGrid
+{
+	border: solid 2px #dcdcdc;
+}
+.reportHeader
+{
+	background-color: #6B696B;
+	color: White;
+	border: solid 2px #dcdcdc;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 2px;
+}
+/*Modal Popup*/
