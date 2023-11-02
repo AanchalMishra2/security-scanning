@@ -1,0 +1,113 @@
+﻿<%@ Master Language="VB" EnableTheming="true"   CodeFile="TestMaster.master.vb" Inherits="TestMaster" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Energy Tracker:</title>
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+    <link href="css/accordian.css" rel="stylesheet" type="text/css" />
+    <script src="../JS/validation.js" type="text/javascript"></script>
+    
+  <!--   this is used to avoid go back when any one log out and try to go bak to man page---->
+<%-- <script type="text/javascript">
+    javascript:window.history.forword(0);
+    </script>--%>
+      <script type="text/javascript">
+        window.history.forward(0)
+        </script>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="wrapper-inner">
+        <div id="header">
+        <ul>
+        <li class="logo"><img src="../Images/issue_tracker_logo.jpg" alt="Energy Tracker" 
+                width="264" height="50" title="Energy Tracker" /></li>
+        <li class="fr" id="top_nav">
+        <ul>
+        <li class="top_nav_right"></li>
+        <li class="top_nav_mid">
+         <span class="welcome">Welcome:</span> 
+              <asp:Label ID="Label1" runat="server" Text="Label" CssClass="userid">Adminstrator</asp:Label>
+              <span class="logout">&nbsp;&nbsp;|&nbsp;&nbsp;<asp:LinkButton ID="LinkButton1" runat="server">Logout</asp:LinkButton></span>
+           </li>
+        <li class="top_nav_left"></li>
+        <li class="clear"></li>
+        <li class="globalProsev_logo fr"><img src="../Images/globalgroup.gif" alt="Global Group Enterprise" title="Global Group Enterprise" /></li>
+        </ul>
+        </li>
+        
+        <li class="clear"></li>
+        </ul>
+  </div>
+    
+    
+        <div id="inner-container">
+     <div class="inner-container">
+     <div class="fl" style="height:36px !important; overflow: hidden"><img src="../Images/inner-container-top-left.jpg" alt="Issue Tracker" />
+         </div>
+     <div class="fl inner-container-menu" >
+     <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" 
+             CssClass="NavigationMenu" EnableTheming="True" 
+             StaticEnableDefaultPopOutImage="False" DataSourceID="xmlDataSource">
+             
+             <DataBindings>
+                    <asp:MenuItemBinding DataMember="MenuItem" NavigateUrlField="NavigateUrl" TextField="Text"
+                        ToolTipField="ToolTip" />
+                </DataBindings>
+         </asp:Menu>
+     	
+     </div>
+       
+	
+	
+	<div class="fr" style="height:36px !important; overflow:hidden"><img src="../Images/inner-container-top-right.jpg" alt="Issue Tracker"  /></div>
+	<div class="fr">
+	<asp:LinkButton ID="LinkButton2" runat="server" Visible="false" Text="Home" CssClass="backbutton"></asp:LinkButton></div>
+     
+	
+    <div class="clear"></div>
+    <div class="breadCum">
+               <asp:SiteMapPath ID="SiteMapPath2" runat="server" PathSeparator="" 
+                   SkipLinkText="" >
+        </asp:SiteMapPath>
+        
+       
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" StartFromCurrentNode="false"
+                    ShowStartingNode="true" />
+                <asp:XmlDataSource ID="xmlDataSource" TransformFile="TransformXSLT.xsl" XPath="MenuItems/MenuItem"
+                    runat="server" EnableCaching="False" />
+                     <asp:ToolkitScriptManager ID="ScriptManager1" runat="server" EnablePartialRendering="true" >
+                </asp:ToolkitScriptManager>
+        
+   </div>
+     </div>
+      <div class="clear IE7"></div>
+     
+     <div id="workspace">
+   
+     <div id="ContentPlaceHolder">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+    </div>
+</div>
+     
+     <div class="clear">&nbsp;</div>
+    
+    
+     </div>
+       
+         <div class="clear">&nbsp;</div>
+     <div class="disclamair">Copyright © 2010 GPSL Limited. All Rights Reserved. </div>
+    </div>
+    
+    
+     
+    </form>
+</body>
+</html>

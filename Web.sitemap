@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  
+<siteMapNode title ="Home" description ="Home"> 
+    <siteMapNode  title="Settings"  description="Settings" >
+      <siteMapNode url ="~/Forms/frmChangePassword.aspx" description ="Change Password" title ="Change Password" />
+      <siteMapNode url ="~/Forms/frmResetPassword.aspx" description ="Reset Password" title ="Reset Password" />
+      <siteMapNode url ="~/Forms/frmUserLoginRpt.aspx" description ="User Tracing" title ="User Tracing" />
+      <siteMapNode url ="~/Forms/frmLogout.aspx" description ="Logout" title ="Logout" />
+   </siteMapNode>
+  <siteMapNode  description ="Administrator" title ="Administrator">
+
+    <siteMapNode url ="~/Forms/frmManageDesignation.aspx" description ="Manage Designation" title ="Manage Designation" />
+     <siteMapNode url ="~/Forms/frmManageRole.aspx" description ="Manage Role" title ="Manage Role" /> 
+    <siteMapNode url ="~/Forms/frmUserMstr.aspx" description ="Manage Users" title ="Manage Users" />
+    <siteMapNode url ="~/Forms/frmCustomerMstr.aspx" description ="Manage Customers" title ="Manage Customers" />
+    <!--<siteMapNode url ="~/Forms/frmManageUsers.aspx" description ="Manage User" title ="Manage User" />-->
+    <!--<siteMapNode url ="~/Forms/frmManageRole.aspx" description ="Manage Role" title ="Manage Role" />-->
+    <siteMapNode url ="~/Forms/frmAssignRole.aspx" description ="Assign Rights To Roles" title ="Assign Rights To Roles" />
+    <siteMapNode url ="~/Forms/frmDocumentTypeMstr.aspx" description ="Manage Document Type" title ="Manage Document Type" />
+    <siteMapNode url ="~/Forms/frmSubPetroCardMstr.aspx" description ="Manage Sub Petro Cardst" title ="Manage Sub Petro Cards" />
+    <siteMapNode url ="~/Forms/frmLocationMstr.aspx" description ="Manage Location" title ="Manage Location" />
+    <siteMapNode url ="~/Forms/frmCircleMstr.aspx" description ="Manage Circle" title ="Manage Circle" />
+    <siteMapNode url ="~/Forms/frmSiteMstr.aspx" description ="Manage Site" title ="Manage Site" />
+    <siteMapNode url ="~/Forms/frmPetroCardMstr.aspx" description ="Manage Petro Cards" title ="Manage Petro Cards" />
+    <!--<siteMapNode url ="~/Forms/frmDataEntry.aspx" description ="Manage Site Details" title ="Manage Site Details" />-->
+    <siteMapNode url ="~/Forms/frmDealerMstr.aspx" description ="Manage Dealer" title ="Manage Dealer" />
+    <siteMapNode url ="~/Forms/frmVendorMaster.aspx" description ="Manage Vendors" title ="Manage Vendor" />
+
+
+  </siteMapNode>
+	<siteMapNode  title ="Listing And Mapping" description ="Listing And Mapping">
+		<siteMapNode url ="~/Forms/frmListSiteNew.aspx" description ="List Site" title ="List Site" />
+		<siteMapNode url ="~/Forms/frmListPetrocard.aspx" description ="List Petrocard" title ="List Petrocard" />
+		<siteMapNode url ="~/Forms/frmListDealer.aspx" description ="List Dealer" title ="List Dealer" />
+		<siteMapNode url ="~/Forms/frmListSubPetroCard.aspx" description ="List Sub PetroCard" title ="List Sub PetroCard" />
+		<siteMapNode url ="~/Forms/frmListLocation.aspx" description ="List Location" title ="List Location" />
+		<siteMapNode url ="~/Forms/frmAssignCircle.aspx" description ="Assign Circle" title ="Assign Circle" />
+		<siteMapNode url ="~/Forms/frmAssignCircleCustomer.aspx" description ="Assign Circle to Customer" title ="Assign Circle to Customer" />
+		<siteMapNode url ="~/Forms/frmAssignCustomerToUser.aspx" description ="Assign Customer to User" title ="Assign Customer to User" />
+		<!--<siteMapNode url ="~/Forms/frmscan1.aspx" description ="Scan Pending1" title ="Scan Pending1" />-->
+	<!-- 	<siteMapNode url ="~/Forms/frmAuditPending.aspx" description ="Audit Pending" title ="Audit Pending" />-->
+	</siteMapNode>
+  <siteMapNode  title ="Transaction" description ="Transaction">
+    <siteMapNode url ="~/Forms/frmFundAllotmentNew.aspx" description ="Fund Allotment" title ="Fund Allotment" />
+    <siteMapNode url ="~/Forms/frmFundUtilization.aspx" description ="Fund Utilization" title ="Fund Utilization" />
+    <!--<siteMapNode url ="~/Forms/frmscan1.aspx" description ="Scan Pending1" title ="Scan Pending1" />-->
+    <siteMapNode url ="~/Forms/frmDieselTracking.aspx" description ="Diesel Tracking" title ="Diesel Tracking" />
+	  <siteMapNode url ="~/Forms/frmEBTracking.aspx" description ="EB Tracking" title ="EB Tracking" />
+	  <siteMapNode url ="~/Forms/frmSiteMonthEnergyConsumption.aspx" description ="Monthly Site Energy Consumption" title ="Monthly Site Energy Consumption" />
+	  <siteMapNode url ="~/Forms/frmProjection.aspx" description ="Monthly Projection" title ="Monthly Projection" />
+	  <siteMapNode url ="~/Forms/frmprojectionDetails.aspx" description ="Monthly Detailed Projection" title ="Monthly Detailed Projection" />
+  </siteMapNode>
+   <!--<siteMapNode  title ="Pre Audit" description="Pre Audit">frmscan1.aspx
+        <siteMapNode url ="~/Forms/frmAssignPreAuditor.aspx" title ="Assign Pre Auditor" description ="Assign Pre Auditor" />
+    <siteMapNode url ="~/Forms/frmPreAudit.aspx" title ="Pre-Auditing Process" description ="Pre-Auditing Process" />
+    
+  </siteMapNode>
+  <siteMapNode  title ="Oracle Posting" description ="Oracle Posting">
+    
+    <siteMapNode url ="~/Forms/frmAssignOracleTeam.aspx" title ="Assign Oracle Team" description ="Assign Oracle Team" />
+    <siteMapNode url ="~/Forms/frmOraclePosting.aspx" title ="Oracle Process" description ="Oracle Process" />
+  </siteMapNode>
+  <siteMapNode  title ="Post Audit" description ="Post Audit">
+        <siteMapNode url ="~/Forms/frmAssignPostAuditor.aspx" title ="Assign Post Auditor" description ="Assign Post Auditor"/>
+    <siteMapNode url ="~/Forms/frmPostAudit.aspx" title ="Post Audit Process" description ="Post Audit Process"/>
+  </siteMapNode>
+  <siteMapNode     title ="Reports" description ="Reports">
+    <siteMapNode url ="~/Forms/frmTransactionSummaryReport.aspx" title ="Transaction Summary Report" description ="Transaction Summary Report" />
+    <siteMapNode url ="~/Forms/frmMISWorkStatusReport.aspx" title ="MIS Work Status Report" description ="MIS Work Status Report" />
+    <siteMapNode url ="~/Forms/frmPreAuditWorkStatusReport.aspx" title ="PreAudit Work Status Report" description ="PreAudit Work Status Report" />
+    <siteMapNode url ="~/Forms/frmOracleWorkStatusReport.aspx" title ="Oracle Work Status Report" description ="Oracle Work Status Report" />
+    <siteMapNode url ="~/Forms/frmPostAuditWorkStatusReport.aspx" title ="Post Audit Work Status Report" description ="Post Audit Work Status Report" />
+    <siteMapNode url ="~/Forms/frmDailyTransReport.aspx" title ="Daily Transaction Report" description ="Daily Transaction Report" />
+  </siteMapNode>-->
+
+  <siteMapNode     title ="Reports" description ="Reports">
+    <siteMapNode   url ="~/Forms/frmDetailedDieselTrackingRpt.aspx"   title ="Detailed Report For Diesel Tracking"   description ="Detailed Report For Diesel Tracking" />
+    <siteMapNode   url ="~/Forms/frmPurchaseSummeryRpt.aspx"   title ="Circle Wise Purchase Summary Report"   description ="Circle Wise Purchase Summary Report" />
+    <siteMapNode   url ="~/Forms/frmSitewisePurchaseRpt.aspx"   title ="Site Wise Purchase Summary Report"   description ="Site Wise Purchase Summary Report" />
+    <siteMapNode   url ="~/Forms/frmFundAllotementRpt.aspx"   title ="Fund Allotment Report"   description ="Fund Allotment Report" />
+    <siteMapNode   url ="~/Forms/frmVendorReport.aspx"   title ="Fund Utilized With Vendor Report "   description ="Fund Utilized With Vendor Report " />
+    <siteMapNode   url ="~/Forms/frmSummaryReportFAFU.aspx"   title ="Fund Allotment And Utilization Report "   description ="Fund Allotment And Utilization Report " />
+    <siteMapNode   url ="~/Forms/frmDetailedEBTrackingRpt.aspx"   title ="Detailed Report For EB Tracking "   description ="Detailed Report For EB Tracking " />
+    <siteMapNode   url ="~/Forms/frmSummaryRptEB.aspx"   title ="Summary Report For EB Tracking"   description ="Summary Report For EB Tracking" />
+	  <siteMapNode   url ="~/Forms/frmPetrocardFundUtiPercentage.aspx"   title ="Petrocard Funding And Utilization Report "   description ="Petrocard Funding And Utilization Report " />
+	  <siteMapNode   url ="~/Forms/frmFundUtilizationPercentRpt.aspx"   title ="Fund Utilization Report"   description ="Fund Utilization Report" />
+	  <siteMapNode   url ="~/Forms/frmAverageDieselEBUnits.aspx"   title ="Average Diesel And EB Units Report "   description ="Average Diesel And EB Units Report " />
+	  <siteMapNode   url ="~/Forms/frmFundAllotmentDetails.aspx"   title ="Fund Allotment DD Report "   description ="Fund Allotment DD Report " />
+	  <siteMapNode   url ="~/Forms/frmMainAccFundAllotRpt.aspx"   title ="Main Account Transaction Report "   description ="Main Account Transaction Report " />
+	  <siteMapNode   url ="~/Forms/frmEnergyprojectionVsActualReport.aspx"   title ="Energy Projection Vs Actual Projection"   description ="Energy Projection Vs Actual Projection" />
+
+
+  </siteMapNode>
+    </siteMapNode>
+</siteMap>
+

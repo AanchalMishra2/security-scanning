@@ -1,0 +1,28 @@
+﻿<%@ Master Language="VB" CodeFile="MasterMain.master.vb" Inherits="MasterMain" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <title>Untitled Page</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+     <asp:ScriptManager ID="ScriptManager1" runat="server">
+            </asp:ScriptManager>
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background:White">
+    <form id="form1" runat="server">
+    
+    <div style="background-color:White">    
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
